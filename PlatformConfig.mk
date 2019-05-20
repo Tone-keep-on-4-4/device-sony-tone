@@ -17,8 +17,6 @@ PLATFORM_COMMON_PATH := device/sony/tone
 PRODUCT_PLATFORM_SOD := true
 
 TARGET_BOARD_PLATFORM := msm8996
-KERNEL_PATH := kernel/sony/msm-4.4
-TARGET_KERNEL_SOURCE := kernel/sony/msm-4.4/kernel
 
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
