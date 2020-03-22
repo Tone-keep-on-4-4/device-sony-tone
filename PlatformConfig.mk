@@ -69,8 +69,8 @@ BOARD_CUSTOM_BT_CONFIG := $(PLATFORM_COMMON_PATH)/bluetooth/vnd_generic.txt
 # RIL
 TARGET_PER_MGR_ENABLED := true
 
-# SELinux
-BOARD_SEPOLICY_DIRS += $(PLATFORM_COMMON_PATH)/sepolicy_platform
+# Lineage
+WITHOUT_CHECK_API := true
 
 # FPC version select
 TARGET_FPC_VERSION := N
