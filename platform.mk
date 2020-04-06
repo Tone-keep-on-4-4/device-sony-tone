@@ -26,7 +26,8 @@ SONY_ROOT := $(PLATFORM_COMMON_PATH)/rootdir
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(PLATFORM_COMMON_PATH)/overlay
+    $(PLATFORM_COMMON_PATH)/overlay \
+    $(PLATFORM_COMMON_PATH)/overlay-lineage
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES += \
