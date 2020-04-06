@@ -168,3 +168,7 @@ endif
 # HAL3
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=1
+
+# Vendor version
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.odm.expect.version=8.1.0_4.4_tone_v17
