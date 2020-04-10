@@ -176,3 +176,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Vendor version
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.odm.expect.version=8.1.0_4.4_tone_v17
+
+# Time zone
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.timezone=Asia/Shanghai
