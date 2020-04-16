@@ -19,6 +19,9 @@ $(call inherit-product, device/sony/common/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/sony/tone/tone-vendor.mk)
+
 SOMC_PLATFORM := tone
 SOMC_KERNEL_VERSION := 4.4
 

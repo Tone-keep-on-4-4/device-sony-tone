@@ -75,6 +75,13 @@ WITHOUT_CHECK_API := true
 # FPC version select
 TARGET_FPC_VERSION := N
 
+# GPS
+BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := msm8996
+BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
+TARGET_NO_RPC := true
+USE_DEVICE_SPECIFIC_GPS := true
+DEVICE_SPECIFIC_GPS_PATH := $(PLATFORM_COMMON_PATH)/gps
+
 # Platform witout a vendor partition
 TARGET_COPY_OUT_VENDOR := system/vendor
 
@@ -84,3 +91,6 @@ BOARD_SEPOLICY_DIRS += $(PLATFORM_COMMON_PATH)/sepolicy_platform
 BOARD_ROOT_EXTRA_SYMLINKS := /system/vendor/lib/dsp:/dsp
 
 include device/sony/common/CommonConfig.mk
+
+# Inherit from the proprietary version
+-include vendor/sony/tone/BoardConfigVendor.mk
