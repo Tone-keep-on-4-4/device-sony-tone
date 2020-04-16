@@ -98,8 +98,13 @@ PRODUCT_PACKAGES += \
     nfc_nci_nxp
 
 # GPS
-PRODUCT_PACKAGES += \
-    gps.msm8996
+PRODUCT_COPY_FILES += \
+    $(PLATFORM_COMMON_PATH)/gps/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
+    $(PLATFORM_COMMON_PATH)/gps/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
+    $(PLATFORM_COMMON_PATH)/gps/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
+    $(PLATFORM_COMMON_PATH)/gps/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
+    $(PLATFORM_COMMON_PATH)/gps/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
+    $(PLATFORM_COMMON_PATH)/gps/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
 
 # CAMERA
 PRODUCT_PACKAGES += \
