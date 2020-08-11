@@ -188,3 +188,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Time zone
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.timezone=Asia/Shanghai
+
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(SONY_ROOT)/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
+
+# Power
+PRODUCT_COPY_FILES += \
+    $(SONY_ROOT)/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml

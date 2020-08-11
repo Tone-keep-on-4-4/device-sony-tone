@@ -34,6 +34,9 @@ on charger
     write /sys/devices/system/cpu/cpu2/online 0
     write /sys/devices/system/cpu/cpu3/online 0
 
+    # Start thermal
+    start thermal-engine
+
     # Enable thermal
     write /sys/module/msm_thermal/core_control/enabled 1
 
