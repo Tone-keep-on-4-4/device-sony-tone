@@ -91,6 +91,11 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SEPOLICY_DIRS += $(PLATFORM_COMMON_PATH)/sepolicy_platform
 
 BOARD_ROOT_EXTRA_SYMLINKS := /vendor/lib/dsp:/dsp
+BOARD_ROOT_EXTRA_SYMLINKS += /vendor/firmware:/odm/firmware
+BOARD_ROOT_EXTRA_SYMLINKS += /vendor/lib:/odm/lib
+BOARD_ROOT_EXTRA_SYMLINKS += /vendor/lib64:/odm/lib64
+BOARD_ROOT_EXTRA_SYMLINKS += /vendor/radio:/odm/radio
+BOARD_ROOT_EXTRA_SYMLINKS += /vendor/bin:/odm/bin
 
 include device/sony/common/CommonConfig.mk
 
