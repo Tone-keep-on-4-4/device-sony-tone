@@ -82,13 +82,15 @@ TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
 DEVICE_SPECIFIC_GPS_PATH := $(PLATFORM_COMMON_PATH)/gps
 
-# Platform witout a vendor partition
-TARGET_COPY_OUT_VENDOR := system/vendor
+# Platform with a vendor partition
+BOARD_VENDORIMAGE_PARTITION_SIZE := 419430400
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+TARGET_COPY_OUT_VENDOR := vendor
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(PLATFORM_COMMON_PATH)/sepolicy_platform
 
-BOARD_ROOT_EXTRA_SYMLINKS := /system/vendor/lib/dsp:/dsp
+BOARD_ROOT_EXTRA_SYMLINKS := /vendor/lib/dsp:/dsp
 
 include device/sony/common/CommonConfig.mk
 
