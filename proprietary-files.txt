@@ -491,15 +491,20 @@ vendor/lib/libmdmdetect.so
 vendor/radio/qcril_database/qcril.db
 
 # Sensors
-vendor/bin/sensors.qcom
-vendor/lib64/hw/sensors.msm8996.so
-vendor/lib64/libsensor1.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/libsdsprpc.so
-vendor/lib/hw/sensors.msm8996.so
-vendor/lib/libsensor1.so
-vendor/lib/libsensor_reg.so
 vendor/lib/libsdsprpc.so
+
+# Sensors - from oneplus3t - OnePlus/OnePlus3/OnePlus3T:9/PKQ1.181203.001/1911042108 - OOS 9.0.6
+vendor/bin/sensors.qti|c65a1300c40dffbfa4739e63181fae1b6c9cf2ac
+vendor/lib64/hw/activity_recognition.msm8996.so|64901bc837ed32dee28bbff9a60df7d8ac5cd140
+vendor/lib64/libsensor1.so|f8524d62d2ad52849f4a13b018baf08d0eac8180
+vendor/lib64/libsensor_reg.so|8ca48358abf3f8f84f86036b02dbb210a5870742
+vendor/lib/hw/activity_recognition.msm8996.so|6bec19a06f59abca3d43cd6a83c88fbe9daea7f6
+vendor/lib/libsensor1.so|de27fcd2ab95788e09310c5f2cf58a0540afcfe3
+vendor/lib/libsensor_reg.so|9a3568dc423598886b7f16d91d76e53cd0220387
+
+# Sensors - from Stock Oreo
+vendor/lib/sensors.ssc.so|6470fa0b78defb0e9c1bbbdf325d0cdeffaa26c9
+vendor/lib64/sensors.ssc.so|b92ab1a47dc7296a05090e548d57e15530a73804
 
 # Time services
 vendor/lib64/libtime_genoff.so
