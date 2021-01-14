@@ -89,7 +89,7 @@ TARGET_COPY_OUT_ODM := vendor/odm
 # SELinux
 BOARD_SEPOLICY_DIRS += $(PLATFORM_COMMON_PATH)/sepolicy/vendor
 
-BOARD_ROOT_EXTRA_SYMLINKS := /vendor/lib/dsp:/dsp
+BOARD_ROOT_EXTRA_SYMLINKS :=  /vendor/dsp:/dsp
 
 include device/sony/common/CommonConfig.mk
 

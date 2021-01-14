@@ -14,3 +14,6 @@
 
 # Firmware
 /firmware(/.*)?           u:object_r:firmware_file:s0
+
+#/Dsp
+/dsp(/.*)?                                                    u:object_r:adsprpcd_file:s0
