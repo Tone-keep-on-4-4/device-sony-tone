@@ -92,3 +92,6 @@ BOARD_SEPOLICY_DIRS += $(PLATFORM_COMMON_PATH)/sepolicy_platform
 BOARD_ROOT_EXTRA_SYMLINKS := /vendor/lib/dsp:/dsp
 
 include device/sony/common/CommonConfig.mk
+
+# Inherit from the proprietary version
+-include vendor/sony/tone/BoardConfigVendor.mk
