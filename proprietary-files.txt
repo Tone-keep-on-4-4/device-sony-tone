@@ -314,11 +314,6 @@ odm/firmware/fidocrypto.b05
 odm/firmware/fidocrypto.b06
 odm/firmware/fidocrypto.mdt
 
-# Gatekeeper
-odm/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-odm/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-odm/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-
 # Graphics (Adreno)
 odm/lib64/egl/eglSubDriverAndroid.so
 odm/lib64/egl/libEGL_adreno.so
@@ -401,15 +396,6 @@ odm/lib/libqomx_jpegdec.so
 odm/lib/libqomx_jpegenc_pipe.so
 odm/lib/libqomx_jpegenc.so
 
-# Keymaster
-odm/bin/hw/android.hardware.keymaster@3.0-service-qti
-odm/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-odm/lib64/libkeymasterprovision.so
-odm/lib64/libkeymasterdeviceutils.so
-odm/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-odm/lib/libkeymasterprovision.so
-odm/lib/libkeymasterdeviceutils.so
-
 # MSM irqbalance
 odm/bin/msm_irqbalance
 
@@ -426,21 +412,6 @@ odm/bin/pm-proxy
 odm/bin/pm-service
 odm/lib64/libperipheral_client.so
 odm/lib/libperipheral_client.so
-
-# Qseecomd
-odm/bin/qseecomd
-odm/lib64/libdrmfs.so
-odm/lib64/libdrmtime.so
-odm/lib64/libqisl.so
-odm/lib64/libQSEEComAPI.so
-odm/lib64/librpmb.so
-odm/lib64/libssd.so
-odm/lib/libdrmfs.so
-odm/lib/libdrmtime.so
-odm/lib/libqisl.so
-odm/lib/libQSEEComAPI.so
-odm/lib/librpmb.so
-odm/lib/libssd.so
 
 # QMI
 odm/bin/irsc_util
