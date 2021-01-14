@@ -562,3 +562,35 @@ odm/lib64/libsystem_health_mon.so
 odm/lib64/libxml.so
 odm/lib/libsystem_health_mon.so
 odm/lib/libxml.so
+
+# DRM and SEE - from - zuk z2_row - OPR1.170623.032.4.0.247_181017
+vendor/bin/qseecomd|c4459544ef344b3723456f2310bd6e80b67c85b5
+vendor/lib64/libGPreqcancel.so|ce1d5bb9b4660c821361789c96861946a9762fd4
+vendor/lib64/libGPreqcancel_svc.so|b87931212ef21cae934fe0318a043bed64f65107
+vendor/lib64/libQSEEComAPI.so|d3c9df87d95313873e7ff9b4f92825dabd449a35
+vendor/lib64/libSecureUILib.so|713797c217a05e437ceafed7f08611a7eff24d9c
+vendor/lib64/libStDrvInt.so|987a06865440e3c20ce3130d5e65d7bbe84a0c2b
+vendor/lib64/libdrmfs.so|4da0e9cb3fb2979a43d060a080c91ad638955b4e
+vendor/lib64/libdrmtime.so|d0ff3f243f399f4b8b3aeeb7f2667d094a95e3c6
+vendor/lib64/libqisl.so|5644c79eff7e4d3f8dedd7b5281d94e59d897a20
+vendor/lib64/librpmb.so|fce6cfc104360f715e9981e98e3bdc5bbf2a76bb
+vendor/lib64/libsecureui.so|194ae1dfe1fc8f6c519b7eb7ed0cb54956f9f8b4
+vendor/lib64/libsecureui_svcsock.so|96d4284fdc3202f72e51a22e6ed45875f7584aa2
+vendor/lib64/libssd.so|5d462e0c3e13183f5a3d038f4054dd0f12cb84c9
+vendor/lib/libQSEEComAPI.so|3becb53edd33a6bd8e84b8695cec09b133c1717d
+
+# Gatekeeper - from Stock Oreo
+vendor/lib64/hw/gatekeeper.msm8996.so|0fa963f1aefa1d2f8f77b32c142a61c149d1bcb5
+vendor/lib/hw/gatekeeper.msm8996.so|ac555627694d57b1dd79b4ddf3faec2e9174967f
+
+# Keystore - from Stock Oreo
+vendor/lib64/hw/keystore.msm8996.so|a613466b94a699ba760864fa82d0322c3aaa8ac4
+vendor/lib/hw/keystore.msm8996.so|bd92d1ccbc294e6bcb0fdb4018749646d1ba0193
+
+# TUI - from - z2_row - OPR1.170623.032.4.0.247_181017
+lib/vendor.qti.hardware.tui_comm@1.0.so|9731f132da85eb8dbecaaeb8de8aae688451de88
+lib64/vendor.qti.hardware.tui_comm@1.0.so|cb02db4598465bcb72363784245df14ac9c2adea
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|3328d433e889426d16fbae33a3304d783c70c0d5
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so|cf86dc8570d565961c0009139f661fe7b9b01e34
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so|706bc2080f47aa13537e565cd11fc18c1e7e7d64
